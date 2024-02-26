@@ -32,20 +32,21 @@ const Feed = () => {
       const data = await response.json()
       setPosts(data)
     }
+    fetchPosts();
   }, [])
 
   return (
     <section className='feed'>
-      <form className='relative w-full flex-center'>
-        <input
-          type='text'
-          placeholder='Search for a tag or a username'
-          value={searchText}
-          onChange={handleSearchChange}
-          required
-          className='search__input peer'
-        ></input>
-      </form>
+    <form className='relative flex-center w-full'>
+      <input
+        type='text'
+        placeholder='Search for a tag or a username'
+        value={searchText}
+        onChange={handleSearchChange}
+        required
+        className='search_input peer'
+      />
+    </form>
 
       <PromptCardList
         data={posts}

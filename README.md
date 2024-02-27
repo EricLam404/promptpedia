@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptpedia
 
-## Getting Started
+Welcome to Promptpedia, a creative platform for discovering, creating, and sharing AI prompts. This web application leverages Next.js for its frontend, MongoDB for data storage, the Gemini AI API for prompt and tag generation, and Tailwind CSS for styling.
 
-First, run the development server:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Profile
+- View all your posts.
+- Edit or delete your posts.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 2. Feed
+- View all posts from the community.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 3. Search
+- Search by content, tag, or username.
+- Filter posts by tags.
 
-## Learn More
+### 4. Gemini AI Integration
+- Generate creative prompts and tags for your posts.
 
-To learn more about Next.js, take a look at the following resources:
+### 5. Other Profiles
+- View other users' profiles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Gemini AI API](https://geminiapi.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/promptpedia.git
+   cd promptpedia
+2. Install dependencies:
+   ```bash
+   npm install
+3. Configuration
+   ```env
+    GOOGLE_ID=YOUR_GOOGLE_ID  
+    GOOGLE_CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET  
+    MONGODB_URI=YOUR_MONGODB_URI  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    NEXTAUTH_URL=YOUR_NEXTAUTH_URL  
+    NEXTAUTH_URL_INTERNAL=YOUR_NEXTAUTH_URL_INTERNAL  
+    NEXTAUTH_SECRET=YOUR_NEXTAUTH_SECRET  
+4.  Usage: 
+    ```bash
+    npm run dev
+5.  View:
+Open your browser and navigate to http://localhost:3000.
+
+## Features to implement
+- Search
+    - Search by content
+    - Search by tag
+    - Search by username
+- Click on tag
+- View other profiles

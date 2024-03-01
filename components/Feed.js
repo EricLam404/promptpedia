@@ -68,7 +68,7 @@ const Feed = () => {
 
   return (
     <section className='feed'>
-      <form className='relative w-full flex-center'>
+      <form className='relative w-full flex-center' onSubmit={(e) => {e.preventDefault()}}>
         <input
           type='text'
           placeholder='Search for a tag or a username'

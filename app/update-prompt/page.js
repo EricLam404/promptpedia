@@ -14,9 +14,12 @@ const EditPrompt = () => {
     })
 
     const router = useRouter()
+    let promptId;
     // const { data: session } = useSession();
-    const params = new URLSearchParams(document.location.search);
-    const promptId = params.get("id")
+    if(typeof window !== 'undefined'){
+        const params = new URLSearchParams(document.location.search);
+        promptId = params.get("id")
+    }
 
     useEffect(() => {
         const getPromptDetails = async () => {

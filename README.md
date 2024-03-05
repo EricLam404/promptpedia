@@ -22,7 +22,7 @@ Welcome to Promptpedia, a creative platform for discovering, creating, and shari
 - Search by content, tag, or username.
 - Filter posts by tags.
 
-### 4. Gemini AI Integration
+### 4. GeminiAI Integration
 - Generate creative prompts and tags for your posts.
 
 ### 5. Other Profiles
@@ -58,11 +58,3 @@ Welcome to Promptpedia, a creative platform for discovering, creating, and shari
     npm run dev
 5.  View:
 Open your browser and navigate to http://localhost:3000.
-
-## Features to implement
-- Search
-    - Search by content
-    - Search by tag
-    - Search by username
-- Click on tag
-- View other profiles

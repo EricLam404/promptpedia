@@ -1,6 +1,6 @@
 # Promptpedia
 
-Welcome to Promptpedia, a creative platform for discovering, creating, and sharing AI prompts. This web application leverages Next.js for its frontend, MongoDB for data storage, the Gemini AI API for prompt and tag generation, and Tailwind CSS for styling.
+Welcome to Promptpedia, a creative platform for discovering, creating, and sharing AI prompts. This web application leverages Next.js for its frontend, MongoDB for data storage, the GeminiAI API for tag generation, and Tailwind CSS for styling.
 
 ## Table of Contents
 - [Features](#features)
@@ -32,7 +32,7 @@ Welcome to Promptpedia, a creative platform for discovering, creating, and shari
 
 - [Next.js](https://nextjs.org/)
 - [MongoDB](https://www.mongodb.com/)
-- [Gemini AI API](https://geminiapi.com/)
+- [Gemini AI API](https://ai.google.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## Installation
